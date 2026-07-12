@@ -79,7 +79,7 @@ The main goal of this project is to make fee management easier, faster, and more
 ### Step 1 — Clone the repository
 
 ```bash
-git clone https://github.com/pryteee/EduFeeManager
+git clone https://github.com/pryteee/EduFeeManager.git
 cd EduFeeManager
 ```
 
