@@ -1,5 +1,3 @@
-# database/db_connection.py
-
 import mysql.connector
 from mysql.connector import Error
 
@@ -13,7 +11,7 @@ class DatabaseConnection:
     def __init__(self):
         self.host     = "localhost"
         self.user     = "root"        
-        self.password = "DB_PASSWORD"
+        self.password = "DB_PASSWORD"  
         self.database = "DB_NAME"
         self.connection = None
 
