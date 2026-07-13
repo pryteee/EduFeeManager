@@ -1,5 +1,3 @@
-# views/student/change_password.py
-
 import tkinter as tk
 from tkinter import messagebox
 from models.student_model import StudentModel
