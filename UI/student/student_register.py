@@ -1,5 +1,3 @@
-# UI/student/student_register.py
-
 import tkinter as tk
 from tkinter import messagebox
 import datetime
