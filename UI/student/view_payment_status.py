@@ -1,5 +1,3 @@
-# views/student/view_payment_status.py
-
 import tkinter as tk
 from models.fee_model import FeeModel
 from UI.styles import (
