@@ -1,5 +1,3 @@
-# views/counselor/detailed_report.py
-
 import tkinter as tk
 from tkinter import ttk, messagebox
 from models.fee_model import FeeModel
