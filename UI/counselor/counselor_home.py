@@ -1,5 +1,3 @@
-# UI/counselor/counselor_home.py
-
 import tkinter as tk
 from UI.styles import (
     BG_DARK, BG_CARD, ACCENT, BTN_BLUE, BTN_GREY,
