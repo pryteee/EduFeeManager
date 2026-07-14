@@ -1,5 +1,3 @@
-# UI/counselor/counselor_login.py
-
 import tkinter as tk
 from tkinter import messagebox
 from models.counselor_model import CounselorModel
