@@ -1,5 +1,3 @@
-# views/counselor/view_fee_structure.py
-
 import tkinter as tk
 from tkinter import messagebox
 from models.fee_model import FeeModel
