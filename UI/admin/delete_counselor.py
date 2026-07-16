@@ -1,5 +1,3 @@
-# views/admin/delete_counselor.py
-
 import tkinter as tk
 from tkinter import messagebox
 from models.counselor_model import CounselorModel
