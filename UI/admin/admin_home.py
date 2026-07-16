@@ -1,5 +1,3 @@
-# UI/admin/admin_home.py
-
 import tkinter as tk
 from UI.styles import (
     BG_CARD, ACCENT, BTN_BLUE, BTN_GREY, TEXT_WHITE, TEXT_MUTED,
