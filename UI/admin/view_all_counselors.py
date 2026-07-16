@@ -1,5 +1,3 @@
-# views/admin/view_all_counselors.py
-
 import tkinter as tk
 from tkinter import ttk
 from models.counselor_model import CounselorModel
