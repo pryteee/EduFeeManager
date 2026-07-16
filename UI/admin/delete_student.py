@@ -1,5 +1,3 @@
-# views/admin/delete_student.py
-
 import tkinter as tk
 from tkinter import messagebox
 from models.student_model import StudentModel
