@@ -1,5 +1,3 @@
-# views/admin/forgot_password.py
-
 import tkinter as tk
 from tkinter import messagebox
 from models.admin_model import AdminModel
