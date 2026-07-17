@@ -1,5 +1,3 @@
-# models/student_model.py
-
 from database.db_connection import DatabaseConnection
 
 
@@ -18,9 +16,8 @@ class StudentModel:
             username,
             password,
             academic_year,
-            total_fee=0.00        # defaults to 0.00
+            total_fee=0.00       
     ):
-        # ── Step 1: Insert into student table ─────────────
         query = """
             INSERT INTO student
             (
@@ -49,11 +46,7 @@ class StudentModel:
             )
         )
 
-        # ── Step 2: Auto-create fee record ─────────────────
-        # This ensures fee table always has a row for every
-        # student — whether registered by student or counselor.
-        # Without this, JOIN in get_fee_with_student returns
-        # nothing and shows "student not found".
+       
         if success and student_id:
             fee_query = """
                 INSERT INTO fee
