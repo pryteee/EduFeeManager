@@ -1,5 +1,3 @@
-# models/admin_model.py
-
 from database.db_connection import DatabaseConnection
 
 
