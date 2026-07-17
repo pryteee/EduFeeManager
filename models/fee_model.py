@@ -18,7 +18,6 @@ class FeeModel:
         )
 
         if existing:
-            # Already exists — update course_fee and pending
             pending = course_fee
             query = """
                 UPDATE fee
